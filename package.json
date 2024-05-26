@@ -1,0 +1,29 @@
+{
+  "name": "sessionforge-docs",
+  "packageManager": "yarn@4.2.2",
+  "version": "1.0.0",
+  "homepage": "https://sessionforge.netlify.app/",
+  "description": "The SessionForge library is designed to provide developers with a flexible and efficient tool for managing sessions using file manipulation. With SessionForge, you can easily create, read, update, and delete session data stored in files, enabling seamless integration of session management functionality into your applications.",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.2.2",
+    "vue": "^3.4.27"
+  },
+  "bugs": {
+    "url": "https://github.com/biswas-abhi/session-forge/issues",
+    "email": "biswas.abhishek105@gmail.com"
+  },
+  "author": {
+    "name": "Abhishek Biswas",
+    "email": "biswas.abhishek105@gmail.com",
+    "url": "https://biswas-abhishek.netlify.app/"
+  }
+}
