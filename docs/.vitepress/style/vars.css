@@ -1,0 +1,44 @@
+/**
+ * Colors
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-c-accent: rgba(15, 48, 84, 1);
+  --vp-c-brand: rgba(55, 133, 193, 1);
+
+  --vp-c-brand-1: var(--vp-c-indigo-1);
+  --vp-c-brand-2: var(--vp-c-indigo-2);
+  --vp-c-brand-3: var(--vp-c-indigo-3);
+  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    var(--vp-c-brand) 25%,
+    var(--vp-c-accent)
+  );
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    /* var(--vp-c-brand) 30%, */ rgba(15, 48, 84, 1) 48%,
+    /* var(--vp-c-accent) */ rgba(55, 133, 193, 1) 100%
+  );
+  --vp-home-hero-image-filter: blur(30px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(72px);
+  }
+}
